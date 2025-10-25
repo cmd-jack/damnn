@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "env": {
+    "CONTRACT_ADDRESS": "@contract_address",
+    "RPC_URL": "@rpc_url",
+    "PRIVATE_KEY": "@private_key"
+  },
+  "functions": {
+    "api/**/*.js": {
+      "maxDuration": 10
+    }
+  }
+}
